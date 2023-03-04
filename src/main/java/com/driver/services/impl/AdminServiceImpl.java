@@ -83,7 +83,7 @@ public class AdminServiceImpl implements AdminService {
         }
         else{
             //Throwing Exception When country is not found.
-            return new Exception("Country not found");
+            throw new Exception("Country not ");
         }
     }
 }
